@@ -6,7 +6,6 @@
 
 }
 
-
 body{
     font-family: "Roboto", sans-serif;
     font-style: normal;
@@ -73,6 +72,7 @@ body{
 .header-address-link:hover,
 .header-address-link:focus{
     color: var(--ocean);
+    font-style: normal;
 }
 
 
@@ -94,7 +94,7 @@ body{
 .hero-btn{
     color: #FFF;
     font-size: 16px;
-    font-family: Roboto;
+    font-family: "Roboto", sans-serif;
     font-style: normal;
     font-weight: 500;
     line-height: 1.5;
@@ -256,7 +256,7 @@ body{
     color: #ffffff;
 }
 
-.portfolio-projects-name{
+.projects-name{
 color: var(--navyblue);
 font-size: 20px;
 font-weight: 500;
@@ -264,7 +264,7 @@ line-height: 1.2;
 letter-spacing: 0.02em;
 }
 
-.portfolio-projects-filters{
+.projects-filters{
     color: var(--slate);
     font-size: 16px;
     line-height: 1.5;
